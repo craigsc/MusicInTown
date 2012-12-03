@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/hacku10/!svn/ver/25/war/WEB-INF
+END
+appengine-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/hacku10/!svn/ver/18/war/WEB-INF/appengine-web.xml
+END
+cron.xml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/hacku10/!svn/ver/25/war/WEB-INF/cron.xml
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/hacku10/!svn/ver/1/war/WEB-INF/logging.properties
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/hacku10/!svn/ver/25/war/WEB-INF/web.xml
+END

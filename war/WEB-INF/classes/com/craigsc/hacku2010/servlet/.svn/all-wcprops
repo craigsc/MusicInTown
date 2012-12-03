@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/hacku10/!svn/ver/29/src/com/craigsc/hacku2010/servlet
+END
+WelcomeServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/hacku10/!svn/ver/26/src/com/craigsc/hacku2010/servlet/WelcomeServlet.java
+END
+HackU2010Servlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/hacku10/!svn/ver/19/src/com/craigsc/hacku2010/servlet/HackU2010Servlet.java
+END
+CronServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/hacku10/!svn/ver/25/src/com/craigsc/hacku2010/servlet/CronServlet.java
+END
+SubscriptionServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/hacku10/!svn/ver/29/src/com/craigsc/hacku2010/servlet/SubscriptionServlet.java
+END

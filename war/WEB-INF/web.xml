@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>HackU2010</servlet-name>
+		<servlet-class>com.craigsc.hacku2010.servlet.HackU2010Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Subscribe</servlet-name>
+		<servlet-class>com.craigsc.hacku2010.servlet.SubscriptionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Welcome</servlet-name>
+		<servlet-class>com.craigsc.hacku2010.servlet.WelcomeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Cron</servlet-name>
+		<servlet-class>com.craigsc.hacku2010.servlet.CronServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Stop</servlet-name>
+		<servlet-class>com.craigsc.hacku2010.servlet.StopServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HackU2010</servlet-name>
+		<url-pattern>/hacku2010</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Subscribe</servlet-name>
+		<url-pattern>/verify</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Welcome</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Stop</servlet-name>
+		<url-pattern>/stop</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Cron</servlet-name>
+		<url-pattern>/cron</url-pattern>
+	</servlet-mapping>
+	<security-constraint>
+        <web-resource-collection>
+            <url-pattern>/cron*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
